@@ -1,0 +1,30 @@
+nav ul.side-nav li a:hover {
+    background-color: rgba(0, 0, 0, 0);
+}
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+.alert-success {
+    background-color: #CEFFCE;
+    color: #009900;
+    border: 2px solid #009900;
+}
+
+.alert-failure {
+    background-color: #FFC7C7;
+    color: #990000;
+    border: 2px solid #990000;
+}
+
+.alert-warning {
+    background-color: #F9F9B8;
+    color: #999900;
+    border: 2px solid #999900;
+}
